@@ -1,0 +1,9 @@
+.header__circle {
+  width: 4px;
+  height: 4px;
+  background: #46CB72;
+  border-radius: 4px;
+  margin-right: 9px;
+  margin-top: 67px;
+  text-decoration: none;
+}

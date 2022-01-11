@@ -1,0 +1,13 @@
+.header__text {
+  margin-top: 59px;
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 20px;
+  color: #000000;
+}
+.header__text:nth-of-type(2) {
+  text-decoration: underline;
+}
+.header__text:nth-of-type(3) {
+  font-weight: 900;
+}

@@ -1,0 +1,9 @@
+.main__subtitle {
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 25px;
+  text-align: center;
+  color: black;
+  margin: 0 auto 0;
+  max-width: 621px;
+}

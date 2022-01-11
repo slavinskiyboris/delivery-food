@@ -1,0 +1,9 @@
+.product-grid__card {
+  width: 260px;
+  height: 426px;
+  border: 1px solid #c5c5c7;
+  border-radius: 15px;
+  position: relative;
+  background: #F0F5FB;
+
+}

@@ -1,0 +1,8 @@
+.product-grid__button-card {
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}

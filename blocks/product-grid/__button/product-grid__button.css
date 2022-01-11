@@ -1,0 +1,15 @@
+.product-grid__button {
+  margin-right: auto;
+  margin-left: auto;
+  width: 135px;
+  height: 55px;
+  border-radius: 25px;
+  color: black;
+  border: #ECEEF6 1px solid;
+  background: linear-gradient(0deg, #ECEEF6, #ECEEF6), #59AAF1;
+  cursor: pointer;
+}
+.product-grid__button:hover {
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
