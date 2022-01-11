@@ -36,3 +36,7 @@
 @import url(../blocks/product-grid/__basket/product-grid__basket.css);
 @import url(../blocks/product-grid/__table/product-grid__table.css);
 @import url(../blocks/product-grid/__basket-offer/product-grid__basket-offer.css);
+@import url(../blocks/product-grid/__vegetable/_five/product-grid__vegetable_five.css);
+@import url(../blocks/product-grid/__vegetable/_seven/product-grid__vegetable_seven.css);
+@import url(../blocks/product-grid/__vegetable/_six/product-grid__vegetable_six.css);
+@import url(../blocks/product-grid/__more/product-grid__more.css);
