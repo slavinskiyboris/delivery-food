@@ -1,0 +1,6 @@
+.social__grid {
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 40px;
+}

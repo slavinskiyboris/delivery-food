@@ -1,0 +1,12 @@
+.social__block {
+  width: 480px;
+  height: 180px;
+  background: linear-gradient(45.04deg, #FD9924 -51.05%, #F65B16 134.89%);
+  border-radius: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 30px;
+  position: absolute;
+  top: 25px;
+  left: 480px;
+}

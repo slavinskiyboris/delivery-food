@@ -1,0 +1,11 @@
+.social__grid-image {
+  width: 260px;
+  height: 260px;
+  margin: 0;
+}
+.social__grid-image:nth-of-type(1) {
+  width: 110px;
+}
+.social__grid-image:last-of-type {
+  width: 110px;
+}

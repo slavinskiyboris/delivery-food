@@ -40,3 +40,17 @@
 @import url(../blocks/product-grid/__vegetable/_seven/product-grid__vegetable_seven.css);
 @import url(../blocks/product-grid/__vegetable/_six/product-grid__vegetable_six.css);
 @import url(../blocks/product-grid/__more/product-grid__more.css);
+
+/* social */
+@import url(../blocks/social/social.css);
+@import url(../blocks/social/__block/social__block.css);
+@import url(../blocks/social/__block-text/social__block-text.css);
+@import url(../blocks/social/__block-name/social__block-name.css);
+@import url(../blocks/social/__grid/social__grid.css);
+@import url(../blocks/social/__grid-image/social__grid-image.css);
+
+/* cover */
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__image-car/cover__image-car.css);
+@import url(../blocks/cover/__image-vegetablea/cover__image-vegetable.css);
+@import url(../blocks/cover/__title/cover__title.css);

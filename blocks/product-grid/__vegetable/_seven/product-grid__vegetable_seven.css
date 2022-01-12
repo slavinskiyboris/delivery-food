@@ -1,5 +1,6 @@
 .product-grid__vegetable_seven {
   position: absolute;
-  bottom: -20px;
+  bottom: -40px;
   left: -10px;
+  z-index: 1;
 }
