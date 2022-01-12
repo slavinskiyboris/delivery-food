@@ -1,5 +1,13 @@
 .product-grid__basket {
   width: 33px;
   height: 33px;
-  padding-left: 113px;
+  background: url("../../../images/product_grid/basket_inactive.svg") no-repeat center;
+  border-radius: 100%;
+  border: 0;
+  margin-left: 113px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+.product-grid__basket:hover {
+  opacity: 0.6;
 }

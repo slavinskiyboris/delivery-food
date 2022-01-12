@@ -40,17 +40,23 @@
     <img src="images/vegetable_six.svg" class="product-grid__vegetable_six" alt="Кулинарные щипцы">
     <img src="images/vegetable_seven.svg" class="product-grid__vegetable_seven" alt="Брокколи">
     <h2 class="product-grid__title">Popular dishes</h2>
+
     <div class="product-grid__button-card">
-      <button data-tab="pizza" class="product-grid__button">Pizza</button>
-      <button data-tab="drinks" class="product-grid__button">Drinks</button>
+      <button type="button" data-tab="pizza" class="product-grid__button" aria-label="Пицца">Pizza</button>
+      <button type="button" data-tab="sushi" class="product-grid__button" aria-label="Суши">Sushi</button>
+      <button type="button" data-tab="salad" class="product-grid__button" aria-label="Салат">Salad</button>
+      <button type="button" data-tab="dessert" class="product-grid__button" aria-label="Десерт">Dessert</button>
+      <button type="button" data-tab="drinks" class="product-grid__button" aria-label="Напитки">Drinks</button>
     </div>
+
+    <!-- Pizza -->
     <div class="product-grid__cards tabs container">
       <div class="product-grid__card tab active" data-tab="pizza">
         <img src="images/product_grid/pizza1.png" class="product-grid__image" alt="Пицца Quattro formaggi">
         <p class="product-grid__card-title">Quattro formaggi</p>
         <p class="product-grid__card-subtitle">Dough, Mozzarella, Cheddar, Blue, Parmesan</p>
         <p class="product-grid__card-price">119 UAH</p>
-        <img src="images/product_grid/basket_inactive.svg" class="product-grid__basket" alt="Карзина">
+        <button type="button" class="product-grid__basket" aria-label="Добавить в карзину"></button>
       </div>
 
       <div class="product-grid__card tab active" data-tab="pizza">
@@ -58,7 +64,7 @@
         <p class="product-grid__card-title">Quattro formaggi</p>
         <p class="product-grid__card-subtitle">Dough, Mozzarella, Cheddar, Blue, Parmesan</p>
         <p class="product-grid__card-price">119 UAH</p>
-        <img src="images/product_grid/basket_inactive.svg" class="product-grid__basket" alt="Карзина">
+        <button type="button" class="product-grid__basket" aria-label="Добавить в карзину"></button>
       </div>
 
       <div class="product-grid__card tab active" data-tab="pizza">
@@ -67,7 +73,7 @@
         <p class="product-grid__card-title">Quattro formaggi</p>
         <p class="product-grid__card-subtitle">Dough, Mozzarella, Cheddar, Blue, Parmesan</p>
         <p class="product-grid__card-price">119 UAH</p>
-        <img src="images/product_grid/basket_inactive.svg" class="product-grid__basket" alt="Карзина">
+        <button type="button" class="product-grid__basket" aria-label="Добавить в карзину"></button>
       </div>
 
       <div class="product-grid__card tab active" data-tab="pizza">
@@ -75,7 +81,7 @@
         <p class="product-grid__card-title">Quattro formaggi</p>
         <p class="product-grid__card-subtitle">Dough, Mozzarella, Cheddar, Blue, Parmesan</p>
         <p class="product-grid__card-price">119 UAH</p>
-        <img src="images/product_grid/basket_inactive.svg" class="product-grid__basket" alt="Карзина">
+        <button type="button" class="product-grid__basket" aria-label="Добавить в карзину"></button>
       </div>
 
       <div class="product-grid__card tab active" data-tab="pizza">
@@ -83,7 +89,7 @@
         <p class="product-grid__card-title">Quattro formaggi</p>
         <p class="product-grid__card-subtitle">Dough, Mozzarella, Cheddar, Blue, Parmesan</p>
         <p class="product-grid__card-price">119 UAH</p>
-        <img src="images/product_grid/basket_inactive.svg" class="product-grid__basket" alt="Карзина">
+        <button type="button" class="product-grid__basket" aria-label="Добавить в карзину"></button>
       </div>
 
       <div class="product-grid__card tab active" data-tab="pizza">
@@ -91,7 +97,7 @@
         <p class="product-grid__card-title">Quattro formaggi</p>
         <p class="product-grid__card-subtitle">Dough, Mozzarella, Cheddar, Blue, Parmesan</p>
         <p class="product-grid__card-price">119 UAH</p>
-        <img src="images/product_grid/basket_inactive.svg" class="product-grid__basket" alt="Карзина">
+        <button type="button" class="product-grid__basket" aria-label="Добавить в карзину"></button>
       </div>
 
       <div class="product-grid__card tab active" data-tab="pizza">
@@ -99,7 +105,7 @@
         <p class="product-grid__card-title">Quattro formaggi</p>
         <p class="product-grid__card-subtitle">Dough, Mozzarella, Cheddar, Blue, Parmesan</p>
         <p class="product-grid__card-price">119 UAH</p>
-        <img src="images/product_grid/basket_inactive.svg" class="product-grid__basket" alt="Карзина">
+        <button type="button" class="product-grid__basket" aria-label="Добавить в карзину"></button>
       </div>
 
       <div class="product-grid__card tab active" data-tab="pizza">
@@ -107,15 +113,75 @@
         <p class="product-grid__card-title">Quattro formaggi</p>
         <p class="product-grid__card-subtitle">Dough, Mozzarella, Cheddar, Blue, Parmesan</p>
         <p class="product-grid__card-price">119 UAH</p>
-        <img src="images/product_grid/basket_inactive.svg" class="product-grid__basket" alt="Карзина">
+        <button type="button" class="product-grid__basket" aria-label="Добавить в карзину"></button>
       </div>
 
+      <!-- Sushi -->
+      <div class="product-grid__card tab" data-tab="sushi">
+        <img src="images/product_grid/sushi-svgrepo-com%20(1).svg" class="product-grid__image" alt="Пицца Кватро формаджіо">
+        <p class="product-grid__card-title">Philadelphia</p>
+        <p class="product-grid__card-subtitle">A traditional Japanese dish made with rice and seafood.</p>
+        <p class="product-grid__card-price">69 UAH</p>
+        <button type="button" class="product-grid__basket" aria-label="Добавить в карзину"></button>
+      </div>
+
+      <div class="product-grid__card tab" data-tab="sushi">
+        <img src="images/product_grid/sushi-svgrepo-com%20(2).svg" class="product-grid__image" alt="Пицца Кватро формаджіо">
+        <p class="product-grid__card-title">California</p>
+        <p class="product-grid__card-subtitle">A traditional Japanese dish made with rice and seafood.</p>
+        <p class="product-grid__card-price">79 UAH</p>
+        <button type="button" class="product-grid__basket" aria-label="Добавить в карзину"></button>
+      </div>
+
+      <!-- Salad -->
+      <div class="product-grid__card tab" data-tab="salad">
+        <img src="images/product_grid/salad-svgrepo-com.svg" class="product-grid__image" alt="Салат Цезарь">
+        <p class="product-grid__card-title">Caesar</p>
+        <p class="product-grid__card-subtitle">A cold dish of pieces of vegetables, herbs, various other plants.</p>
+        <p class="product-grid__card-price">109 UAH</p>
+        <button type="button" class="product-grid__basket" aria-label="Добавить в карзину"></button>
+      </div>
+
+      <div class="product-grid__card tab" data-tab="salad">
+        <img src="images/product_grid/salad-svgrepo-com%20(1).svg" class="product-grid__image" alt="Салат оливье">
+        <p class="product-grid__card-title">Olivier salad</p>
+        <p class="product-grid__card-subtitle">A cold dish of pieces of vegetables, herbs, various other plants.</p>
+        <p class="product-grid__card-price">59 UAH</p>
+        <button type="button" class="product-grid__basket" aria-label="Добавить в карзину"></button>
+      </div>
+
+      <div class="product-grid__card tab" data-tab="salad">
+        <img src="images/product_grid/salad-svgrepo-com%20(2).svg" class="product-grid__image" alt="Спортивный салаи">
+        <p class="product-grid__card-title">Sporting</p>
+        <p class="product-grid__card-subtitle">A cold dish of pieces of vegetables, herbs, various other plants.</p>
+        <p class="product-grid__card-price">99 UAH</p>
+        <button type="button" class="product-grid__basket" aria-label="Добавить в карзину"></button>
+      </div>
+
+      <!-- Dessert -->
+      <div class="product-grid__card tab" data-tab="dessert">
+        <img src="images/product_grid/dessert-svgrepo-com.svg" class="product-grid__image" alt="Мороженное">
+        <p class="product-grid__card-title">Ice cream</p>
+        <p class="product-grid__card-subtitle">The final dish of the table, designed to obtain a pleasant taste.</p>
+        <p class="product-grid__card-price">59 UAH</p>
+        <button type="button" class="product-grid__basket" aria-label="Добавить в карзину"></button>
+      </div>
+
+      <div class="product-grid__card tab" data-tab="dessert">
+        <img src="images/product_grid/dessert-piece-of-cake-svgrepo-com.svg" class="product-grid__image" alt="Чизкейк">
+        <p class="product-grid__card-title">Cheesecake</p>
+        <p class="product-grid__card-subtitle">The final dish of the table, designed to obtain a pleasant taste.</p>
+        <p class="product-grid__card-price">99 UAH</p>
+        <button type="button" class="product-grid__basket" aria-label="Добавить в карзину"></button>
+      </div>
+
+      <!-- Drinks -->
       <div class="product-grid__card tab" data-tab="drinks">
         <img src="images/product_grid/coffee.svg" class="product-grid__image" alt="Кофе">
         <p class="product-grid__card-title">Coffe</p>
         <p class="product-grid__card-subtitle">A drink made from roasted and ground coffee beans or coffee bush.</p>
         <p class="product-grid__card-price">59 UAH</p>
-        <img src="images/product_grid/basket_inactive.svg" class="product-grid__basket" alt="Карзина">
+        <button type="button" class="product-grid__basket" aria-label="Добавить в карзину"></button>
       </div>
 
       <div class="product-grid__card tab" data-tab="drinks">
@@ -123,7 +189,7 @@
         <p class="product-grid__card-title">Whiskey</p>
         <p class="product-grid__card-subtitle">Strong aromatic alcoholic drink obtained from various types of grain.</p>
         <p class="product-grid__card-price">89 UAH</p>
-        <img src="images/product_grid/basket_inactive.svg" class="product-grid__basket" alt="Карзина">
+        <button type="button" class="product-grid__basket" aria-label="Добавить в карзину"></button>
       </div>
 
       <div class="product-grid__card tab" data-tab="drinks">
@@ -131,7 +197,7 @@
         <p class="product-grid__card-title">Wine</p>
         <p class="product-grid__card-subtitle">A drink obtained by full or partial alcoholic fermentation of grape juice.</p>
         <p class="product-grid__card-price">89 UAH</p>
-        <img src="images/product_grid/basket_inactive.svg" class="product-grid__basket" alt="Карзина">
+        <button type="button" class="product-grid__basket" aria-label="Добавить в карзину"></button>
       </div>
 
       <div class="product-grid__card tab" data-tab="drinks">
@@ -140,7 +206,7 @@
         <p class="product-grid__card-title">Strawberry drink</p>
         <p class="product-grid__card-subtitle">Non-alcoholic carbonated drink with strawberry flavor.</p>
         <p class="product-grid__card-price">49 UAH</p>
-        <img src="images/product_grid/basket_inactive.svg" class="product-grid__basket" alt="Карзина">
+        <button type="button" class="product-grid__basket" aria-label="Добавить в карзину"></button>
       </div>
     </div>
     <button class="product-grid__more"></button>
@@ -149,7 +215,7 @@
   <section class="social">
     <div class="social__block">
       <div class="social__block-name">
-        <h2 class="social__block-text">Instagram:  @classic_kovel</h2>
+        <a href="https://www.instagram.com/classic_kovel/" class="social__block-text" target="_blank">Instagram:  @classic_kovel</a>
       </div>
     </div>
     <div class="social__grid">
