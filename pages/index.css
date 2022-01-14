@@ -21,6 +21,7 @@
 @import url(../blocks/main/__vegetable/_one/main__vegetable_one.css);
 @import url(../blocks/main/__vegetable/_two/main__vegetable_two.css);
 @import url(../blocks/main/__vegetable/_three/main__vegetable_three.css);
+@import url(../blocks/main/__price/main__price.css);
 
 /* product-grid */
 @import url(../blocks/product-grid/product-grid.css);
@@ -52,5 +53,15 @@
 /* cover */
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__image-car/cover__image-car.css);
-@import url(../blocks/cover/__image-vegetablea/cover__image-vegetable.css);
 @import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__form/cover__form.css);
+@import url(../blocks/cover/__button-call/cover__button-call.css);
+@import url(../blocks/cover/__input/cover__input.css);
+
+/* footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__flex/footer__flex.css);
+@import url(../blocks/footer/__made/footer__made.css);
+@import url(../blocks/footer/__made/_weight/footer__made_weight.css);

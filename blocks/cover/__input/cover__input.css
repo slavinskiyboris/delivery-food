@@ -1,0 +1,13 @@
+.cover__input {
+  width: 260px;
+  height: 60px;
+  border-radius: 59px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+
+
+  color: #222222;
+  border: 2px solid #ECEEF7;
+}

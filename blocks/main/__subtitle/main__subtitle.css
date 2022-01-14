@@ -4,6 +4,11 @@
   line-height: 25px;
   text-align: center;
   color: black;
-  margin: 0 auto 0;
+  margin: 0 auto 69px;
   max-width: 621px;
+}
+.main__subtitle:last-of-type {
+  max-width: 200px;
+  margin-left: 1100px;
+  margin-bottom: 0;
 }

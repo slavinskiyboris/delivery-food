@@ -27,6 +27,7 @@
   <section class="main">
     <h1 class="main__title">Food delivery in Kovel</h1>
     <p class="main__subtitle">If you decide to relax or have unexpected guests, call us. We make sure that your vacation is comfortable, enjoyable and delicious</p>
+    <p class="main__subtitle">When ordering from <span class="main__price">700 UAH</span>, delivery is free</p>
     <img src="images/main__image.png" class="main__image" alt="Перец горошком">
     <img src="images/vegetable_one.svg" class="main__vegetable_one" alt="Креветка">
     <img src="images/vegetable_two.svg" class="main__vegetable_two" alt="Томат">
@@ -233,11 +234,24 @@
 
   <section class="cover">
     <h2 class="cover__title">Fill out the form and we will call you</h2>
+    <form class="cover__form">
+      <label for="first-name"></label>
+      <input id="first-name" class="cover__input" placeholder="Your name" type="text" name="user-name" required>
+
+      <label for="phone"></label>
+      <input id="phone" class="cover__input" placeholder="Phone number" type="text" name="user-phone" required>
+
+      <button type="submit" class="cover__button-call" aria-label="Отправить">Сall back →</button>
+    </form>
     <img src="images/cover/car__2_-removebg-preview.png" class="cover__image-car" alt="Машина">
   </section>
 
   <footer class="footer">
-
+    <div class="footer__flex">
+      <p class="footer__copyright">&copy; 2022. Славинский Борис</p>
+      <img src="images/logo.svg" class="footer__logo" alt="Логотип">
+      <p class="footer__made">Made with delight by <span class="footer__made_weight">harmuder</span></p>
+    </div>
   </footer>
 
 <script src="scripts.js"></script>
